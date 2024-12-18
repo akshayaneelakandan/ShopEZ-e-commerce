@@ -1,0 +1,52 @@
+.Footer {
+    background-color: #ffffff; /* Match navbar background */
+    color: #000000; /* Black text */
+    padding: 3vh 3vw;
+    margin-top: 3vh;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.Footer h4 {
+    margin-left: 2vw;
+    font-weight: bold;
+    font-size: 1.2rem; /* Slightly larger heading */
+    color: #000000; /* Black text for heading */
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.footer-body ul {
+    padding: 0; /* Remove unwanted padding */
+    text-align: left;
+    list-style: none;
+}
+
+.footer-body ul li {
+    color: #555555; /* Neutral grey for links */
+    cursor: pointer;
+    margin-bottom: 0.5rem; /* Add spacing between list items */
+    transition: color 0.3s ease;
+}
+
+.footer-body ul li:hover {
+    color: #000000; /* Black on hover */
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Subtle divider for separation */
+    padding-top: 2vh;
+    margin-top: 3vh;
+}
+
+.footer-bottom p {
+    text-align: center;
+    color: #555555; /* Neutral grey for footer text */
+    font-size: 0.9rem; /* Slightly smaller text for contrast */
+    margin: 0;
+}
